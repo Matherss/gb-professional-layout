@@ -76,6 +76,7 @@ header nav {
   position: absolute;
   top: 22px;
   display: none;
+  z-index: 1;
 }
 .mega-link {
   display: block;
@@ -697,4 +698,132 @@ footer {
 
 .catalog_filter {
   margin-top: 35px;
+}
+.catalog_filter_center {
+  flex-grow: 4;
+}
+.catalog_filter_left {
+  flex-grow: 3;
+  position: relative;
+}
+.catalog_list {
+  display: flex;
+  list-style-type: none;
+}
+.catalog_list li {
+  margin-right: 5px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+}
+
+.catalog_filter_accordion {
+  display: none;
+}
+
+.catalog_filter_left:hover .catalog_filter_accordion {
+  display: block;
+  position: absolute;
+  top: 10;
+  z-index: 1;
+}
+
+.product_head {
+  background-color: #f7f7f7;
+  width: 500px;
+  margin: 0 auto;
+}
+.product_all {
+  background-color: #f7f7f7;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.product_cart {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  padding: 65px 0px;
+  margin-top: -50px;
+  z-index: 1;
+}
+.product_cart_head h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #f16d7f;
+  padding: 0;
+  margin-bottom: 12px;
+}
+.product_header h1 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #4d4d4d;
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+}
+.product_desc {
+  margin-top: 49px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5e5e5e;
+  padding: 0px 290px;
+}
+.price {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ef5b70;
+  margin: 32px;
+}
+.product_line {
+  background-color: #ef5b70;
+  width: 63px;
+  height: 3px;
+  margin: 0 auto;
+}
+
+.choose {
+  margin-top: 130px;
+  text-align: center;
+}
+.red_cart {
+  margin-top: 50px;
+  text-align: center;
+}
+.red_cart_link {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376;
+  border: 1px solid #f26376;
+  padding: 10px;
+  text-decoration: none;
+}
+.red_cart_link:hover {
+  color: red;
+}
+.red_cart_link img {
+  margin-right: 15px;
 }

@@ -39,8 +39,33 @@
         </div>
         <div class="rightNav">
           <ul>
-            <li>
-              <a href="#"><img src="img/burger.svg" alt="Menu" /></a>
+            <li class="burger">
+              <img src="img/burger.svg" alt="Menu" />
+              <div class="mega-box">
+                <div class="mega-item">
+                  <h6>MENU</h6>
+                  <h5>MAN</h5>
+                  <a href="#" class="mega-link">Accessories</a>
+                  <a href="#" class="mega-link">Bags</a>
+                  <a href="#" class="mega-link">Denim</a>
+                  <a href="#" class="mega-link">T-Shirts</a>
+
+                  <h5>WOMAN</h5>
+                  <a href="#" class="mega-link">Accessories</a>
+                  <a href="#" class="mega-link">Bags</a>
+                  <a href="#" class="mega-link">Denim</a>
+                  <a href="#" class="mega-link">T-Shirts</a>
+                  <a href="#" class="mega-link">Shirts</a>
+
+                  <h5>KIDS</h5>
+                  <a href="#" class="mega-link">Accessories</a>
+                  <a href="#" class="mega-link">Bags</a>
+                  <a href="#" class="mega-link">Denim</a>
+                  <a href="#" class="mega-link">T-Shirts</a>
+                  <a href="#" class="mega-link">Shirts</a>
+                  <a href="#" class="mega-link">Bags</a>
+                </div>
+              </div>
             </li>
             <li>
               <a href="#"><img src="img/contact.svg" alt="contact" /></a>
@@ -66,8 +91,122 @@
       <div class="container">
         <div class="catalog_filter_left">
           FILTER <img src="img/filter.svg" alt="filter icon" />
+          <div class="catalog_filter_accordion">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    CATEGORY
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <a href="#" class="mega-link">Accessories</a>
+                    <a href="#" class="mega-link">Bags</a>
+                    <a href="#" class="mega-link">Denim</a>
+                    <a href="#" class="mega-link">T-Shirts</a>
+                    <a href="#" class="mega-link">Shirts</a>
+                    <a href="#" class="mega-link">Bags</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    BRAND
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the second item's accordion body. Let's imagine this being
+                    filled with some actual content.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    DESIGNER
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="catalog_filter_center">TRENDING NOW &or;</div>
+        <div class="catalog_filter_center">
+          <ul class="catalog_list">
+            <li>TRENDING NOW &or;</li>
+            <li class="burger">
+              SIZE &or;
+              <div class="mega-box">
+                <div class="mega-item">
+                  <div class="checkbox-item">
+                    <input type="checkbox" name="size-xz" id="size-xs" />XS
+                  </div>
+                  <div class="checkbox-item">
+                    <input type="checkbox" name="size-xz" id="size-s" />S
+                  </div>
+                  <div class="checkbox-item">
+                    <input type="checkbox" name="size-xz" id="size-M" />M
+                  </div>
+                  <div class="checkbox-item">
+                    <input type="checkbox" name="size-xz" id="size-L" />L
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>PRICE &or;</li>
+          </ul>
+        </div>
       </div>
     </section>
     <section class="fetured_items_main">
