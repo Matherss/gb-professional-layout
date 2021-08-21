@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product</title>
+    <title>Cart</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -79,129 +79,66 @@
     </header>
     <section class="catalog_head">
       <div class="container">
-        <div class="catalog_head_left">NEW ARRIVALS</div>
-        <div class="catalog_head_right">
-          <a href="index.html" class="catalog_link">Home</a>&#47;
-          <a href="#" class="catalog_link">&nbsp;MEN</a>&#47;
-          <a href="#" class="catalog_link last_link">&nbsp;NEW ARRIVALS</a>
-        </div>
+        <div class="catalog_head_left">REGISTRATION</div>
       </div>
-    </section>
-    <section class="product_all">
-      <section class="product_head">
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/product_main.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="img/product_main.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="img/product_main.png" class="d-block w-100" alt="..." />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
     </section>
     <div class="container">
-      <article class="product_cart">
-        <div class="product_cart_head"><h2>WOMEN COLLECTION</h2></div>
-        <div class="product_line"></div>
-        <div class="product_header"><h1>MOSCHINO CHEAP AND CHIC</h1></div>
-
-        <p class="product_desc">
-          Compellingly actualize fully researched processes before proactive
-          outsourcing. Progressively syndicate collaborative architectures
-          before cutting-edge services. Completely visualize parallel core
-          competencies rather than exceptional portals.
-        </p>
-        <div class="price">$561</div>
-        <div class="choose">CHOOSE COLOR&or;CHOOSE SIZE&or;QUANTITY&or;</div>
-        <div class="red_cart">
-          <a href="#" class="red_cart_link"
-            ><img src="img/red_cart.svg" />Add to Cart</a
+      <div class="reg_cont">
+        <div class="reg_left">
+          <h2 class="reg_your_name">Your Name</h2>
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="radio" name="gender" id="radio-1" required /><label
+            for="radio-1"
+            >Male</label
           >
+          <input type="radio" name="gender" id="radio-2" /><label for="radio-2"
+            >Female</label
+          >
+          <h2 class="reg_your_name2">Login details</h2>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <p>
+            Please use 8 or more characters, with at least 1 number and a
+            mixture of uppercase and lowercase letters
+          </p>
+
+          <a href="#" class="join_button"
+            >Join now <i class="fa fa-arrow-right" aria-hidden="true"></i
+          ></a>
         </div>
-      </article>
-    </div>
-    <section class="fetured_items_main">
-      <div class="fetured_wrapper">
-        <div class="fetured_item">
-          <div class="item-image">
-            <img src="img/fetured_item_1.png" alt="item" />
-            <span class="item-image-active">
-              <button type="submit" class="item-cart-btn">Add to Cart</button>
-            </span>
-          </div>
-          <div class="fetured_desc">
-            <h5>ELLERY X M'O CAPSULE</h5>
-            <p>
-              Known for her sculptural takes on traditional tailoring,
-              Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
-            </p>
-            <h6>$52.00</h6>
-          </div>
+        <div class="reg_right">
+          <h2>LOYALTY HAS ITS PERKS</h2>
+          <p>
+            Get in on the loyalty program where you can earn points and unlock
+            serious perks. Starting with these as soon as you join:
+          </p>
+          <ul>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>15% off welcome
+              offer
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>Free shipping,
+              returns and exchanges on all orders
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>$10 off a purchase
+              on your birthday
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>Early access to
+              products
+            </li>
+            <li>
+              <i class="fa fa-check" aria-hidden="true"></i>Exclusive offers &
+              rewards
+            </li>
+          </ul>
         </div>
-        <div class="fetured_item">
-          <div class="item-image">
-            <img src="img/fetured_item_2.png" alt="item" />
-            <span class="item-image-active">
-              <button type="submit" class="item-cart-btn">Add to Cart</button>
-            </span>
-          </div>
-          <div class="fetured_desc">
-            <h5>ELLERY X M'O CAPSULE</h5>
-            <p>
-              Known for her sculptural takes on traditional tailoring,
-              Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
-            </p>
-            <h6>$52.00</h6>
-          </div>
-        </div>
-        <div class="fetured_item">
-          <div class="item-image">
-            <img src="img/fetured_item_3.png" alt="item" />
-            <span class="item-image-active">
-              <button type="submit" class="item-cart-btn">Add to Cart</button>
-            </span>
-          </div>
-          <div class="fetured_desc">
-            <h5>ELLERY X M'O CAPSULE</h5>
-            <p>
-              Known for her sculptural takes on traditional tailoring,
-              Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
-            </p>
-            <h6>$52.00</h6>
-          </div>
-        </div>
-        <br />
       </div>
-    </section>
-    <br />
-    <br />
+    </div>
+
     <section class="feedback">
       <div class="overlay"></div>
       <div class="feed_main">

@@ -5,10 +5,10 @@
 
 .container {
   width: 1140px;
-  display: flex;
-  justify-content: space-between;
   padding: 0;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .fetured_link {
@@ -46,6 +46,7 @@ header nav {
 }
 
 .search:hover #search_input {
+  position: absolute;
   display: block;
   transition: all 0.5s;
 }
@@ -81,6 +82,8 @@ header nav {
   top: 22px;
   display: none;
   z-index: 1;
+  width: 232px;
+  height: 764px;
 }
 .mega-link {
   display: block;
@@ -92,6 +95,7 @@ header nav {
   line-height: 17px;
   color: #6f6e6e;
   padding-left: 15px;
+  margin-bottom: 11px;
 }
 .mega-link:hover {
   color: #f16d7f;
@@ -103,6 +107,8 @@ header nav {
   display: block;
 }
 .mega-item h6 {
+  margin-top: 24px;
+  margin-bottom: 24px;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
@@ -111,6 +117,8 @@ header nav {
   color: #000000;
 }
 .mega-item h5 {
+  margin-top: 20px;
+  margin-bottom: 12px;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
@@ -198,11 +206,22 @@ h2 {
 
 /* card section - start */
 
+ol,
+ul {
+  padding-left: 0;
+}
+.card-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .card_section ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 65px;
-  padding-left: 0;
+  width: 1140px;
 }
 
 .card_section ul li {
@@ -571,6 +590,7 @@ p {
   border: 0px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
+  outline: none;
 }
 .subscribe_button {
   margin: 0px;
@@ -696,7 +716,9 @@ footer {
 
   color: #636363;
 }
-
+.catalog_link:hover {
+  color: #f16d7f;
+}
 .last_link {
   color: #f16d7f;
 }
@@ -973,6 +995,9 @@ footer {
   padding: 15px 40px;
 }
 .proceed_to_checkout:hover {
+  text-shadow: 2px 2px 9px rgb(0, 0, 0);
+}
+.proceed_to_checkout:hover {
   color: white;
 }
 .check_container {
@@ -1000,4 +1025,139 @@ hr.line_check {
   color: #000000;
   border: 1px solid #a4a4a4;
   padding: 16px 40px;
+}
+
+.reg_cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reg_your_name {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #222222;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 64px;
+  margin-bottom: 20px;
+}
+.reg_left input[type="text"],
+input[type="email"],
+input[type="password"] {
+  margin-top: 10px;
+  width: 360px;
+  height: 45px;
+  border: 1px solid #a4a4a4;
+  padding: 15px;
+  display: block;
+  margin-bottom: 20px;
+  outline: none;
+}
+.reg_left input::placeholder {
+  color: #b1b1b1;
+}
+
+.reg_left input[type="radio"] {
+  margin: 30px 5px 15px;
+  width: 17px;
+  height: 17px;
+}
+.reg_left label {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.reg_your_name2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #222222;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.reg_left p {
+  width: 359px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: left;
+  color: #b1b1b1;
+}
+
+.join_button {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #f16d7f;
+  padding: 15px 35px;
+  display: block;
+  width: 167px;
+  height: 50px;
+  text-transform: uppercase;
+  margin-top: 39px;
+  margin-bottom: 96px;
+  border: 1px solid transparent;
+  transition: all 0.5s ease;
+}
+.join_button:hover {
+  border: 1px solid #f16d7f;
+  color: #f16d7f;
+  background: #fff;
+}
+.reg_right {
+  margin-left: 128px;
+}
+.reg_right h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 64px;
+  padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 22px;
+}
+.reg_right p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: left;
+}
+.reg_right ul {
+  margin-top: 21px;
+}
+.reg_right li {
+  list-style-type: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+  margin-bottom: 16px;
+}
+.reg_right i {
+  margin-right: 23px;
 }
