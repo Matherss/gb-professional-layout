@@ -68,10 +68,12 @@
               </div>
             </li>
             <li>
-              <a href="#"><img src="img/contact.svg" alt="contact" /></a>
+              <a href="registration.html"
+                ><img src="img/contact.svg" alt="contact"
+              /></a>
             </li>
             <li>
-              <a href="#"><img src="img/basket.svg" alt="basket" /></a>
+              <a href="cart.html"><img src="img/basket.svg" alt="basket" /></a>
             </li>
           </ul>
         </div>
@@ -86,11 +88,12 @@
       <div class="cart_left">
         <div class="cart_item">
           <div class="cart_image_box">
-            <img
-              src="img/fetured_item_3.png"
-              alt="cart_image"
-              class="cart_image"
-            />
+            <a href="product.html"
+              ><img
+                src="img/fetured_item_3.png"
+                alt="cart_image"
+                class="cart_image"
+            /></a>
           </div>
           <div class="cart_desc">
             <ul class="cart_list">
@@ -98,7 +101,16 @@
               <li>Price: <span class="fashion">$300</span></li>
               <li>Color: Red</li>
               <li>Size: Xl</li>
-              <li>Quantity: <span class="quantity">2</span></li>
+              <li>
+                Quantity:
+                <input
+                  name="first_quanity"
+                  type="number"
+                  min="1"
+                  id="quantity"
+                  value="2"
+                />
+              </li>
             </ul>
           </div>
           <div class="cart_item_close">
@@ -107,11 +119,12 @@
         </div>
         <div class="cart_item">
           <div class="cart_image_box">
-            <img
-              src="img/fetured_item_5.png"
-              alt="cart_image"
-              class="cart_image"
-            />
+            <a href="product.html"
+              ><img
+                src="img/fetured_item_5.png"
+                alt="cart_image"
+                class="cart_image"
+            /></a>
           </div>
           <div class="cart_desc">
             <ul class="cart_list">
@@ -119,7 +132,16 @@
               <li>Price: <span class="fashion">$300</span></li>
               <li>Color: Red</li>
               <li>Size: Xl</li>
-              <li>Quantity: <span class="quantity">2</span></li>
+              <li>
+                Quantity:
+                <input
+                  name="sec_quanity"
+                  type="number"
+                  min="1"
+                  id="quantity"
+                  value="2"
+                />
+              </li>
             </ul>
           </div>
           <div class="cart_item_close">
@@ -137,10 +159,12 @@
       </div>
       <div class="cart_right">
         <div class="shipping_adress">
-          <h2>SHIPPING ADRESS</h2>
-          <input type="text" placeholder="Bangladesh" /><br />
-          <input type="text" placeholder="State" /><br />
-          <input type="text" placeholder="Postcode / Zip" /><br />
+          <form action="#">
+            <h2>SHIPPING ADRESS</h2>
+            <input type="text" placeholder="Bangladesh" /><br />
+            <input type="text" placeholder="State" /><br />
+            <input type="text" placeholder="Postcode / Zip" /><br />
+          </form>
           <div class="quote">
             <a href="#" class="quote_button">GET A QUOTE</a>
           </div>
@@ -178,14 +202,14 @@
             <p>FOR OUT NEWLETTER AND PROMOTION</p>
           </div>
           <div class="subscribe_form">
-            <div class="row-container">
+            <form action="#" class="row-container">
               <input
                 type="email"
                 placeholder="Enter Your Email"
                 id="enter_email"
               />
               <button class="subscribe_button">Subscribe</button>
-            </div>
+            </form>
           </div>
         </div>
       </div>
